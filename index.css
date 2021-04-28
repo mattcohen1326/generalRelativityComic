@@ -1,0 +1,22 @@
+body{
+	overflow:hidden;
+	background:url('media/stars.gif');
+}
+#container{
+	display:flex;
+	flex-direction:row;
+	width:100vw;
+	height:75vh;
+	justify-content:center;
+	align-items:center;
+	padding-top: 10vh;
+}
+#container img{
+	padding:2vw
+}
+#leftArrow{
+	height:10vh;
+}
+#rightArrow{
+	height:10vh;
+}
