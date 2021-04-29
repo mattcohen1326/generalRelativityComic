@@ -4,7 +4,7 @@ document.getElementById("rightArrow").addEventListener("mouseover",function(){ho
 document.getElementById("rightArrow").addEventListener("mouseout",function(){restoreImage('right');});
 document.getElementById("leftArrow").addEventListener("mouseover",function(){hoverImage('left');});
 document.getElementById("leftArrow").addEventListener("mouseout",function(){restoreImage('left');});
-Images = ["media/cover.png","media/page2.png","media/page3.png"]
+Images = ["media/cover.png","media/prologue.png","media/page1.png","media/page2.png","media/page3.png","media/page4.png","media/page5.png","media/page6.png","media/workscited.png"]
 imgIndex = 0
 function hoverImage(direction){
 	if (direction === 'right'){
